@@ -1,19 +1,22 @@
 {
-    "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-    "metadata": {
-        "description": "Marketplace hosting the stop-slop skill \u2014 strips AI tells from prose.",
-        "version": "0.1.0"
-    },
-    "name": "stop-slop",
-    "owner": {
-        "name": "ionutz89"
-    },
-    "plugins": [
-        {
-            "category": "writing",
-            "description": "Remove AI writing patterns from prose. Activates when drafting, editing, or reviewing text.",
-            "name": "stop-slop",
-            "source": "."
-        }
-    ]
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "stop-slop",
+  "owner": {
+    "name": "ionutz89"
+  },
+  "metadata": {
+    "description": "Marketplace hosting the stop-slop skill — strips AI tells from prose.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "stop-slop",
+      "source": {
+        "source": "github",
+        "repo": "ionutz89/stop-slop"
+      },
+      "description": "Remove AI writing patterns from prose. Activates when drafting, editing, or reviewing text.",
+      "category": "writing"
+    }
+  ]
 }
