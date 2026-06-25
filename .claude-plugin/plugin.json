@@ -1,0 +1,19 @@
+{
+    "author": {
+        "name": "Hardik Pandya",
+        "url": "https://hvpandya.com"
+    },
+    "description": "Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.",
+    "homepage": "https://github.com/ionutz89/stop-slop",
+    "keywords": [
+        "writing",
+        "editing",
+        "prose",
+        "ai-detection",
+        "style"
+    ],
+    "license": "MIT",
+    "name": "stop-slop",
+    "repository": "https://github.com/ionutz89/stop-slop",
+    "version": "0.1.0"
+}
